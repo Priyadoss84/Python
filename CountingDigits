@@ -1,0 +1,8 @@
+class Solution:
+    def evenlyDivides(self, n):
+        # code here
+        y=0
+        while  (n>0):
+            n=int(n/10)
+            y=y+1
+        return(y)
